@@ -11,4 +11,9 @@ I want to create a "Hello World" GitHub action workflow that prints "Hello World
 ### Phase 2
 I want to create a Dockerfile that pulls in a hello world docker image. I would like to then update .github/workflows/hello-world.yml in order to build that image and deploy it to github image repository. Create two tags for the image v0.1 and latest. Image name hello-world-gh.
 
-**Phase 1 status: Not started**
+**Phase 2 status: complete**
+
+### Phase 3
+I want to deploy the hello-world-gh Docker image to Azure Container Apps using GitHub Actions and Bicep for infrastructure as code. The deployment should create the necessary Azure resources (Resource Group, Container App Environment, Container App) and deploy the image from GitHub Container Registry to Azure Container Apps.
+
+**Phase 3 status: not started**
