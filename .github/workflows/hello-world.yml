@@ -68,8 +68,6 @@ jobs:
     - name: Create Container App Managed Environment
       uses: azure/arm-deploy@v1
       with:
-        scope: subscription
-        region: southafricanorth
         resourceGroupName: rg-hello-world-za
         template: ./infrastructure/container-compute.bicep
-        parameters: managedEnvironmentName=ca-env-hello-world
+        parameters: managedEnvironmentName=ca-env-hello-world location=southafricanorth
