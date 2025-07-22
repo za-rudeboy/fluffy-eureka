@@ -64,3 +64,11 @@ jobs:
         region: southafricanorth
         template: ./infrastructure/rg.bicep
         parameters: resourceGroupName=rg-hello-world-za
+
+    - name: Create Container App Managed Environment
+      uses: azure/arm-deploy@v1
+      with:
+        scope: subscription
+        resourceGroupName: rg-hello-world-za
+        template: ./infrastructure/container-compute.bicep
+        parameters: managedEnvironmentName=ca-env-hello-world
