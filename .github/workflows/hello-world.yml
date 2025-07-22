@@ -56,3 +56,11 @@ jobs:
 
     - name: Test Azure CLI
       run: az account show
+
+    - name: Create Resource Group
+      uses: azure/arm-deploy@v1
+      with:
+        scope: subscription
+        region: southafricanorth
+        template: ./infrastructure/rg.bicep
+        parameters: resourceGroupName=rg-hello-world-za
