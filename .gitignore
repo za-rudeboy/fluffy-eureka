@@ -360,3 +360,5 @@ FodyWeavers.xsd
 # Custom entries
 for_blog_post.md
 federated-credential.json
+
+FluffyEureka/FluffyEureka.AppHost/obj
