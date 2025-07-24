@@ -18,7 +18,7 @@ I want to deploy the hello-world-gh Docker image to Azure Container Apps using G
 I want to use .bicep for infrastructure in Azure. I want it in a directory called infrastructure.
 
 3.1 Create Resource Group, if it does not already exist **3.1 is complete**
-3.2 Create Container App Managed Environment. Add this to file called container-compute.bicep
+3.2 Create Container App Managed Environment. Add this to file called container-compute.bicep **3.2 is complete**
 3.3 Create hello-world container app within that managed environment from 3.2. Add this to file called container-compute.bicep
 
 **Phase 3 status: not started**

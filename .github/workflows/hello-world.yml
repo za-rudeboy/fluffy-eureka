@@ -65,10 +65,10 @@ jobs:
         template: ./infrastructure/rg.bicep
         parameters: resourceGroupName=rg-hello-world-za
 
-    - name: Create Container App Managed Environment
+    - name: Deploy Container App and Managed Environment
       uses: azure/arm-deploy@v1
       with:
         scope: resourcegroup
         resourceGroupName: rg-hello-world-za
         template: ./infrastructure/container-compute.bicep
-        parameters: managedEnvironmentName=ca-env-hello-world location=southafricanorth
+        parameters: managedEnvironmentName=ca-env-hello-world location=southafricanorth containerAppName=ca-hello-world githubOwner=${{ github.repository_owner }}
