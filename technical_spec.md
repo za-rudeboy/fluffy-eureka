@@ -19,6 +19,10 @@ I want to use .bicep for infrastructure in Azure. I want it in a directory calle
 
 3.1 Create Resource Group, if it does not already exist **3.1 is complete**
 3.2 Create Container App Managed Environment. Add this to file called container-compute.bicep **3.2 is complete**
-3.3 Create hello-world container app within that managed environment from 3.2. Add this to file called container-compute.bicep
+3.3 Create hello-world container app within that managed environment from 3.2. Add this to file called container-compute.bicep **3.3  is complete**
 
-**Phase 3 status: not started**
+**Phase 3 status: is complete**
+
+### Phase 4
+I want to create a .Net Aspire application. I want this application to be containerised and deployed to the container app defined in @.github/workflows/hello-world.yml. In other words I want to replace the existing hello-world container with this new .net Aspire application. Therefore update @Dockerfile and update @hello-world.yml. I would like the image name and tag to be dotnet-aspire:v0.1. 
+

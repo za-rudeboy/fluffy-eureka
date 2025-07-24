@@ -32,7 +32,7 @@ resource containerApp 'Microsoft.App/containerApps@2025-01-01' = {
       containers: [
         {
           name: 'hello-world'
-          image: 'ghcr.io/${githubOwner}/hello-world-gh:latest'
+          image: 'ghcr.io/${githubOwner}/hello-world-gh:v0.1'
           resources: {
             cpu: json('0.25')
             memory: '0.5Gi'
