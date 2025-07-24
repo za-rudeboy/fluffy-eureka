@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "4EpWT1HFnTJGf1T4PuLQ0wS9fMQaRg6wX2iUb6/V9ec=",
+  "Source": "FluffyEureka.ApiService",
+  "BasePath": "_content/FluffyEureka.ApiService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

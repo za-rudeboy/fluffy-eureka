@@ -1,0 +1,13 @@
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/bin/Debug/net9.0/FluffyEureka.ServiceDefaults.deps.json
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/bin/Debug/net9.0/FluffyEureka.ServiceDefaults.dll
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/bin/Debug/net9.0/FluffyEureka.ServiceDefaults.pdb
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/FluffyEureka.ServiceDefaults.csproj.AssemblyReference.cache
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/FluffyEureka.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/FluffyEureka.ServiceDefaults.AssemblyInfoInputs.cache
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/FluffyEureka.ServiceDefaults.AssemblyInfo.cs
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/FluffyEureka.ServiceDefaults.csproj.CoreCompileInputs.cache
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/FluffyEureka.ServiceDefaults.sourcelink.json
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/FluffyEureka.ServiceDefaults.dll
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/refint/FluffyEureka.ServiceDefaults.dll
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/FluffyEureka.ServiceDefaults.pdb
+/home/rudy/dev/github_actions/FluffyEureka/FluffyEureka.ServiceDefaults/obj/Debug/net9.0/ref/FluffyEureka.ServiceDefaults.dll
