@@ -7,7 +7,7 @@ on:
 
 env:
   REGISTRY: ghcr.io
-  IMAGE_NAME: hello-world-gh
+  IMAGE_NAME: dotnet-aspire
 
 jobs:
   build-and-deploy:
@@ -34,7 +34,6 @@ jobs:
       with:
         images: ${{ env.REGISTRY }}/${{ github.repository_owner }}/${{ env.IMAGE_NAME }}
         tags: |
-          type=raw,value=latest
           type=raw,value=v0.1
     
     - name: Build and push Docker image
