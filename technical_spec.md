@@ -26,3 +26,5 @@ I want to use .bicep for infrastructure in Azure. I want it in a directory calle
 ### Phase 4
 I want to create a .Net Aspire application. I want this application to be containerised and deployed to the container app defined in @.github/workflows/hello-world.yml. In other words I want to replace the existing hello-world container with this new .net Aspire application. Therefore update @Dockerfile and update @hello-world.yml. I would like the image name and tag to be dotnet-aspire:v0.1. 
 
+The .Net Aspire app already exists @FluffyEureka/FluffyEureka.sln. 
+dotnet run --project FluffyEureka.AppHost/FluffyEureka.AppHost.csproj starts the app up.
